@@ -48,7 +48,6 @@ body {
   border: none;
   outline: none;
   background-color: rgb(238, 238, 238);
-  /* padding: 15px 200px 15px 10px; */
 }
 
 .header-content a {
@@ -156,12 +155,13 @@ body {
   background-color: rgb(206, 206, 206);
 }
 
-.courses-section1, .courses-section2 {
+.courses-section1,
+.courses-section2 {
   display: flex;
   flex-direction: row;
 }
 
- .course1 img {
+.course1 img {
   width: 228px;
   border: 1px solid rgb(204, 204, 204);
 }
@@ -230,130 +230,131 @@ body {
 
 /* style for courses-section2 */
 .students-are-viewing h2 {
-    margin: 35px 0 -20px 35px;
-
+  margin: 35px 0 -20px 35px;
 }
 .courses-section2 {
-    margin: 35px;
+  margin: 35px;
 }
 
 .course1 .price1 {
-    display: flex;
-    padding: 9px 0;
-  }
-  
-  .course1 .price1 p {
-    font-weight: 700;
-    margin-right: 10px;
-  }
-  
-  .course1 .price1 del {
-    color: rgb(95, 94, 94);
-  }
+  display: flex;
+  padding: 9px 0;
+}
+
+.course1 .price1 p {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.course1 .price1 del {
+  color: rgb(95, 94, 94);
+}
 
 /* style for categories */
 
 .top-categories {
-    margin: 35px;
+  margin: 35px;
 }
 
-.top-categories .categories, .categories2 {
-    display: flex;
-    justify-content: space-between;
+.top-categories .categories,
+.categories2 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .top-categories h2 {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .top-categories p {
-    font-size: 15px;
-    font-weight: 700;
-    padding: 8px 0;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px 0;
 }
 
 .top-categories .categories2 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* style for featured-categories */
 
 .featured-topics {
-    background-color: rgb(245, 245, 245);
-    padding: 50px 35px;
+  background-color: rgb(245, 245, 245);
+  padding: 50px 35px;
 }
 
 .featured-topics table {
-    width: 100%;
-    margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .featured-topics th {
-    text-align: left;
-    padding-top: 20px;
+  text-align: left;
+  padding-top: 20px;
 }
 
-table td, th {
-    padding: 10px 10px 10px 0;
-    font-size: 16px;
-    font-weight: 700;
+table td,
+th {
+  padding: 10px 10px 10px 0;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 table th {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 table td p {
-    font-size: 15px;
-    font-weight: 400;
-    padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
 }
 
 .featured-topics a:hover {
-    background-color: rgb(206, 206, 206);
+  background-color: rgb(206, 206, 206);
 }
 
 .active-explore {
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    color: #000;
-    border: 1px solid #000;
-    padding: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
 /* styling for instructor page */
 
 .become-an-instructor {
-    display: flex;
-    width: 65%;
-    gap: 100px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 50px 0;
+  display: flex;
+  width: 65%;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 50px 0;
 }
 
 .become-an-instructor h1 {
-    font-size: 30px;
-    padding-bottom: 10px;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 
 .become-an-instructor p {
-    font-size: 19px;
-    margin-bottom: 40px;
+  font-size: 19px;
+  margin-bottom: 40px;
 }
 
 .become-an-instructor a {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(41, 41, 41);
-    padding: 18px;
-    font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(41, 41, 41);
+  padding: 18px;
+  font-weight: 700;
 }
 
 .become-an-instructor a:hover {
-    background-color: #000;
+  background-color: #000;
 }
 
 /* styling for trusted by */
@@ -407,7 +408,6 @@ table td p {
 .footer .language {
   display: inline;
   color: #fff;
-  
 }
 
 .footer td {
