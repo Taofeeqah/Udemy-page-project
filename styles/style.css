@@ -323,3 +323,119 @@ table td p {
 }
 
 /* styling for instructor page */
+
+.become-an-instructor {
+    display: flex;
+    width: 65%;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.become-an-instructor h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.become-an-instructor p {
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.become-an-instructor a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(41, 41, 41);
+    padding: 18px;
+    font-weight: 700;
+}
+
+.become-an-instructor a:hover {
+    background-color: #000;
+}
+
+/* styling for trusted by */
+
+.trusted-by {
+  background-color: rgb(245, 245, 245);
+  padding: 36px 25px;
+}
+
+.trusted-by h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.trusted-by p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.trusted-by .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* styling for udemy business */
+
+.udemy-business .logo {
+  width: 192px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+/* styling for the footer */
+
+.footer {
+  background-color: #000;
+  padding: 10px 30px 30px 30px;
+}
+
+.footer table {
+  width: 70%;
+}
+
+.footer .table-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .language {
+  display: inline;
+  color: #fff;
+  
+}
+
+.footer td {
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.footer .langlobe {
+  border: 1px solid #fff;
+  padding: 5px 18px;
+  margin: 10px 0;
+}
+
+.footer img {
+  width: 92px;
+  height: 34px;
+}
+
+.footer p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.footer .copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 15px 0;
+}
